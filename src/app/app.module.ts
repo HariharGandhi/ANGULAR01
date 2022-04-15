@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PostCreateComponent } from './post-create/post-create.component';
 import { ClickComponent } from './directives/click.component';
 import { InterpolComponent } from './interpol/interpol.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InterpolComponent } from './interpol/interpol.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
